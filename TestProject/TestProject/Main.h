@@ -1,6 +1,8 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
+#include<stdio.h>
+
 /*
 중간평가 문제
 
@@ -22,13 +24,25 @@ Pop : 값을 불러오는 구조
 스택의 값을 가져오는 Pop 함수가 있어야합니다.
 스택의 현재 인덱스는 top 이라는 변수를사용해야 합니다
 
-
 스택이 비었을때 Pop을하면 "값이 비었습니다" 를 출력해야하고, 값을 불러오지말아야합니다.
 또한 함수로 IsStackEmpty()함수로 만들어야합니다.
 
 스택이 가득찼을때 Push를 하면 "스택이 가득찼습니다"를 출력하고. 값을 저장하지 말아야합니다.
 또한 함수로 IsStackFull()함수를 만들어야합니다.
 
+스택의 사이즈 10 매크로로 해주세요.
+
 */
+
+#define STACK_SIZE_ 2
+int top = -1;
+
+int stack[2];
+
+bool IsStackEmpty();
+bool IsStackFull();
+void Push(int a);
+int Pop();
+
 
 #endif // !__MAIN_H__
