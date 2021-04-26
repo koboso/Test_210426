@@ -1,6 +1,10 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
+#include <stdio.h>
+
+#define STACK_SIZE 10
+
 /*
 중간평가 문제
 
