@@ -1,6 +1,7 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
+// 테스트시작
 /*
 중간평가 문제
 
