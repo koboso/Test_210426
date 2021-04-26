@@ -1,6 +1,7 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
+#include <stdio.h>
 /*
 중간평가 문제
 123123
