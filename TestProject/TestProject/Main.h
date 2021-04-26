@@ -1,6 +1,8 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
+#include<stdio.h>
+
 /*
 중간평가 문제
 
@@ -32,32 +34,15 @@ Pop : 값을 불러오는 구조
 
 */
 
-#define STACK_SIZE 10
-int top = 0;
+#define STACK_SIZE_ 2
+int top = -1;
 
-void Push(int a) {
+int stack[2];
 
-}
-
-int Pop() {
-
-}
-
-bool IsStackEmpty() {
-
-}
-
-bool IsStackFull() {
-
-}
-
-
-
-
-
-
-
-
+bool IsStackEmpty();
+bool IsStackFull();
+void Push(int a);
+int Pop();
 
 
 #endif // !__MAIN_H__
