@@ -22,9 +22,25 @@ void main() {
 		if (top < 0) break;
 
 		else {
-			printf("%d",a);
+			printf("%d", a);
 		}
+	}
 }
+
+	//스택이 비었을 때 불러오면 "값이 비었습니다."를 출력하는 IsStackEmpty()함수
+	bool IsStackEmpty() {
+		if (stack[0] == NULL) {
+			return true;
+		}
+		else return false;
+	}
+	//스택이 가득 찼을 때 저장하면 "스택이 가득 찼습니다."를 출력하는 IsStackFull()함수
+	bool IsStackFull() {
+		if (top >= S_SIZE) {
+			return true;
+		}
+		else return false;
+	}
 //스택에 값을 저장할 Push()함수
 void Push(int a) {
 	if (IsStackFull() == true){
@@ -48,17 +64,3 @@ int Pop() {
 	}
 }
 //스택의 현재 인덱스를 알려 줄 Top()함수
-//스택이 비었을 때 불러오면 "값이 비었습니다."를 출력하는 IsStackEmpty()함수
-bool IsStackEmpty() {
-	if (stack[0] == NULL) {
-		return true;
-	}
-	else return false;
-}
-//스택이 가득 찼을 때 저장하면 "스택이 가득 찼습니다."를 출력하는 IsStackFull()함수
-bool IsStackFull() {
-	if (top >= S_SIZE) {
-		return true;
-	}
-	else return false;
-}
