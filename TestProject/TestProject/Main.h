@@ -1,6 +1,23 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<math.h>
+
+#define STACK_SIZE_ 10
+int top = -1;
+int stack[STACK_SIZE];
+
+bool IsStackEmpty();
+bool IsStackFull();
+void Push(int a);
+int Pop();
+
+
+
+
 // 테스트시작
 /*
 중간평가 문제
