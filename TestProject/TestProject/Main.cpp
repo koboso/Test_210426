@@ -11,23 +11,24 @@ void main() {
 	{
 		stack[i] = NULL;
 	}
-
+	Push(1);
 
 }
 //스택에 값을 저장할 Push()함수
 void Push(int a) {
 	if (stack[S_SIZE - 1] == NULL;){
-		stack[top] = a;
+		stack[top] = { a };
 		top++;
 	}
 	else
 	{
 		IsStackFull();
 	}
-	
 }
 //스택의 값을 불러 올 Pop()함수
+void Pop() {
 
+}
 //스택의 현재 인덱스를 알려 줄 Top()함수
 //스택이 비었을 때 불러오면 "값이 비었습니다."를 출력하는 IsStackEmpty()함수
 //스택이 가득 찼을 때 저장하면 "스택이 가득 찼습니다."를 출력하는 IsStackFull()함수
