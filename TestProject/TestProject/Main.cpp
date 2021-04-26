@@ -24,7 +24,7 @@ void Push(int a) {
 	{
 		IsStackFull();
 	}
-	return stack;
+	
 }
 //스택의 값을 불러 올 Pop()함수
 
