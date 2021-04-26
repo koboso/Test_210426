@@ -30,5 +30,11 @@ Pop : 값을 불러오는 구조
 또한 함수로 IsStackFull()함수를 만들어야합니다.
 
 */
+#include <stdio.h>
+
+void Push(int k);
+int Pop();
+bool IsStackEmpty();
+bool IsStackFull();
 
 #endif // !__MAIN_H__
