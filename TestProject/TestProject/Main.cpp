@@ -5,9 +5,6 @@ void main() {
 	
 	Push(10);
 	Push(20);
-	/// <summary>
-	/// //
-	/// </summary>
 	Push(30);
 	Push(50);
 	Push(70);
