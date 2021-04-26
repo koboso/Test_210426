@@ -2,6 +2,12 @@
 #define __MAIN_H__
 
 #include <stdio.h>
+
+void Push(int a);
+int Pop();
+bool IsStackEmpty();
+bool IsStackFull();
+
 /*
 중간평가 문제
 123123
