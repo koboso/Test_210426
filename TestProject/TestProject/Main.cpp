@@ -3,9 +3,9 @@
 
 void main() {
 	//스택은 FirstInLastOut 방식
-	static int top = 0;
+	int top = 0;
 
-	static int stack[S_SIZE];
+	int stack[S_SIZE];
 
 	for (int i = 0; i < S_SIZE; i++)
 	{
