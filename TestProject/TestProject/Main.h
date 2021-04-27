@@ -5,6 +5,14 @@
 
 #define STACK_SIZE 10
 
+int stack[STACK_SIZE];
+int top = -1;
+void Push(int a);
+int Pop();
+bool IsStackEmpty();
+bool IsStackFull();
+void print_Stack();
+
 /*
 중간평가 문제
 
